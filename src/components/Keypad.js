@@ -4,7 +4,7 @@ import React from "react";
 class Keypad extends React.Component{
 
   render ()  {
-    const enterPassword = function () {
+    const enterPassword = () => {
       console.log('Entering password...')
     }
     return (
