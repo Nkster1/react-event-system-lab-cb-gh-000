@@ -2,15 +2,15 @@
 import  React from "react";
 
 class EyesOnMe extends React.Component {
-
+  focusHandler = () => {
+    console.log('Good!');
+  }
+  blurHandler = () => {
+    console.log('Hey! Eyes on me!');
+  }
 
   render () {
-    const focusHandler = () => {
-      console.log('Good!');
-    }
-    const blurHandler = () => {
-      console.log('Hey! Eyes on me!');
-    }
+
 
     return (
       <button onFocus={this.focusHandler} onBlur={this.blurHandler}  />
