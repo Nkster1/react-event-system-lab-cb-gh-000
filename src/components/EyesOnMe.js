@@ -1,7 +1,7 @@
 // Code EyesOnMe Component Here
 import React from 'react';
 
-class EyesOnMe extends React.Component {
+export default class EyesOnMe extends React.Component {
   constructor() {
     super();
 
@@ -25,4 +25,3 @@ class EyesOnMe extends React.Component {
     );
   }
 }
-export default EyesOnMe
