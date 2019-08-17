@@ -6,10 +6,10 @@ class EyesOnMe extends React.Component {
 
   render () {
     const focusHandler = () => {
-      console.log('Good!')
+      console.log('Good!');
     }
-    const blurHandler = ()  => {
-      console.log('Hey! Eyes on me!')
+    const blurHandler = () => {
+      console.log('Hey! Eyes on me!');
     }
 
     return (
